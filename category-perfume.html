@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лэтуаль | Парфюмерия</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container fade-in">
+        <!-- ШАПКА САЙТА -->
+        <header class="header">
+            <div class="logo">
+                <h1>ЛЭТУАЛЬ</h1>
+                <p>Beauty is your way</p>
+            </div>
+            
+            <div class="login-form">
+                <form action="login-process.html" method="get">
+                    <input type="text" name="username" placeholder="Логин" required>
+                    <input type="password" name="password" placeholder="Пароль" required>
+                    <div style="text-align: right; margin-top: 10px;">
+                        <input type="submit" value="Войти">
+                        <a href="register.html" style="color: white; margin-left: 10px;">Регистрация</a>
+                    </div>
+                </form>
+            </div>
+        </header>
+        
+        <!-- НАВИГАЦИЯ -->
+        <nav class="nav">
+            <div class="nav-links">
+                <a href="index.html">Главная</a>
+                <a href="catalog.html">Каталог</a>
+                <a href="contacts.html">Контакты</a>
+                <a href="brands.html">Бренды</a>
+                <a href="new.html">Новинки</a>
+            </div>
+            
+            <div class="search-box">
+                <form action="search_form.html" method="get">
+                    <input type="text" name="query" placeholder="Поиск...">
+                    <input type="submit" value="Найти">
+                </form>
+            </div>
+        </nav>
+        
+        <!-- ОСНОВНОЙ КОНТЕНТ -->
+        <div style="display: flex;">
+            <!-- ЛЕВЫЙ САЙДБАР -->
+            <aside class="sidebar">
+                <h3>Меню</h3>
+                <a href="index.html">Главная</a>
+                <a href="about.html">О нас</a>
+                <a href="history.html">История фирмы</a>
+                <a href="team.html">Сотрудники</a>
+                <a href="new.html">Новинки</a>
+                <a href="bestsellers.html">Хиты продаж</a>
+                <a href="catalog.html">Каталог</a>
+                <a href="contacts.html">Контакты</a>
+                <a href="review.html">Отзывы</a>
+                
+                <h3 style="margin-top: 30px;">Категории</h3>
+                <a href="category-perfume.html">Парфюмерия</a>
+                <a href="category-makeup.html">Декоративная косметика</a>
+                <a href="category-skin.html">Уход за кожей</a>
+                <a href="category-hair.html">Уход за волосами</a>
+
+            </aside>
+            
+            <!-- ЦЕНТРАЛЬНАЯ ЧАСТЬ -->
+            <main class="main-content" style="flex: 1;">
+                <h1 style="color: var(--primary); text-align: center;">ПАРФЮМЕРИЯ</h1>
+                <hr style="margin-bottom: 30px;">
+                
+                <p style="text-align: center; margin-bottom: 30px;">Широкий выбор ароматов для женщин и мужчин</p>
+                
+                <h2 style="color: var(--secondary); margin-bottom: 20px;">Женская парфюмерия</h2>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <a href="product1.html">
+                            <img src="images/perfume1.jpg" alt="Chanel Chance">
+                        </a>
+                        <div class="product-info">
+                            <h3><a href="product1.html">Chanel Chance</a></h3>
+                            <p class="price">8 990 ₽</p>
+                            <p>Цветочно-цитрусовый</p>
+                            <a href="product1.html" class="btn">Подробнее</a>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <a href="product2.html">
+                            <img src="images/perfume2.jpg" alt="Dior J'adore">
+                        </a>
+                        <div class="product-info">
+                            <h3><a href="product2.html">Dior J'adore</a></h3>
+                            <p class="price">10 490 ₽</p>
+                            <p>Цветочно-фруктовый</p>
+                            <a href="product2.html" class="btn">Подробнее</a>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <a href="product3.html">
+                            <img src="images/perfume3.jpg" alt="Gucci Bloom">
+                        </a>
+                        <div class="product-info">
+                            <h3><a href="product3.html">Gucci Bloom</a></h3>
+                            <p class="price">7 990 ₽</p>
+                            <p>Цветочный</p>
+                            <a href="product3.html" class="btn">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="images/perfume4.jpg" alt="YSL">
+                        <div class="product-info">
+                            <h3>YSL Libre</h3>
+                            <p class="price">9 490 ₽</p>
+                            <p><small>Новый аромат</small></p>
+                            <a href="#" class="btn">Подробнее</a>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <img src="images/perfume5.jpg" alt="Givenchy">
+                        <div class="product-info">
+                            <h3>Givenchy L'Interdit</h3>
+                            <p class="price">8 490 ₽</p>
+                            <p><small>Новинка</small></p>
+                            <a href="#" class="btn">Подробнее</a>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <img src="images/perfume6.jpg" alt="Prada">
+                        <div class="product-info">
+                            <h3>Prada Paradoxe</h3>
+                            <p class="price">9 990 ₽</p>
+                            <p><small>2024</small></p>
+                            <a href="#" class="btn">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <h2 style="color: var(--secondary); margin: 40px 0 20px;">Мужская парфюмерия</h2>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <img src="images/perfume7.jpg" alt="Boss Bottled">
+                        <div class="product-info">
+                            <h3>Boss Bottled</h3>
+                            <p class="price">6 490 ₽</p>
+                            <p>Древесный</p>
+                            <a href="#" class="btn">Подробнее</a>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <img src="images/perfume8.jpg" alt="Bleu de Chanel">
+                        <div class="product-info">
+                            <h3>Bleu de Chanel</h3>
+                            <p class="price">7 990 ₽</p>
+                            <p>Древесно-пряный</p>
+                            <a href="#" class="btn">Подробнее</a>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <img src="images/perfume9.jpg" alt="Dior Sauvage">
+                        <div class="product-info">
+                            <h3>Dior Sauvage</h3>
+                            <p class="price">8 490 ₽</p>
+                            <p>Фужерный</p>
+                            <a href="#" class="btn">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <a href="catalog.html" class="btn" style="margin-top: 30px;">← Назад в каталог</a>
+            </main>
+        </div>
+        
+        <!-- ПОДВАЛ -->
+        <footer class="footer">
+            <hr>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>О компании</h4>
+                    <p><a href="about.html" style="color: white;">О нас</a></p>
+                    <p><a href="history.html" style="color: white;">История</a></p>
+                    <p><a href="team.html" style="color: white;">Сотрудники</a></p>
+                </div>
+                <div class="footer-section">
+                    <h4>Покупателям</h4>
+                    <p><a href="catalog.html" style="color: white;">Каталог</a></p>
+                    <p><a href="delivery.html" style="color: white;">Доставка</a></p>
+                    <p><a href="payment.html" style="color: white;">Оплата</a></p>
+                </div>
+                <div class="footer-section">
+                    <h4>Контакты</h4>
+                    <p><a href="tel:88001234567" style="color: white;">8-800-123-45-67</a></p>
+                    <p><a href="mailto:info@letoile.ru" style="color: white;">info@letoile.ru</a></p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 Лэтуаль. Все права защищены</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

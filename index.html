@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лэтуаль | Главная</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container fade-in">
+        <!-- ШАПКА САЙТА -->
+        <header class="header">
+            <div class="logo">
+                <h1>ЛЭТУАЛЬ</h1>
+                <p>Beauty is your way</p>
+            </div>
+            
+            <div class="login-form">
+                <form action="login-process.html" method="get">
+                    <input type="text" name="username" placeholder="Логин" required>
+                    <input type="password" name="password" placeholder="Пароль" required>
+                    <div style="text-align: right; margin-top: 10px;">
+                        <input type="submit" value="Войти">
+                        <a href="register.html" style="color: white; margin-left: 10px;">Регистрация</a>
+                    </div>
+                </form>
+            </div>
+        </header>
+        
+        <!-- НАВИГАЦИЯ -->
+        <nav class="nav">
+            <div class="nav-links">
+                <a href="index.html">Главная</a>
+                <a href="catalog.html">Каталог</a>
+                <a href="contacts.html">Контакты</a>
+                <a href="brands.html">Бренды</a>
+                <a href="new.html">Новинки</a>
+            </div>
+            
+            <div class="search-box">
+                <form action="search_form.html" method="get">
+                    <input type="text" name="query" placeholder="Поиск...">
+                    <input type="submit" value="Найти">
+                </form>
+            </div>
+        </nav>
+        
+        <!-- ОСНОВНОЙ КОНТЕНТ (БЕЗ ПРАВОЙ ПАНЕЛИ) -->
+        <div style="display: flex;">
+            <!-- ЛЕВЫЙ САЙДБАР -->
+            <aside class="sidebar">
+                <h3>Меню</h3>
+                <a href="index.html">Главная</a>
+                <a href="about.html">О нас</a>
+                <a href="history.html">История фирмы</a>
+                <a href="team.html">Сотрудники</a>
+                <a href="new.html">Новинки</a>
+                <a href="bestsellers.html">Хиты продаж</a>
+                <a href="catalog.html">Каталог</a>
+                <a href="contacts.html">Контакты</a>
+                <a href="review.html">Отзывы</a>
+                
+                <h3 style="margin-top: 30px;">Категории</h3>
+                <a href="category-perfume.html">Парфюмерия</a>
+                <a href="category-makeup.html">Декоративная косметика</a>
+                <a href="category-skin.html">Уход за кожей</a>
+                <a href="category-hair.html">Уход за волосами</a>
+            </aside>
+            
+            <!-- ЦЕНТРАЛЬНАЯ ЧАСТЬ (НА ВСЮ ШИРИНУ) -->
+            <main class="main-content" style="flex: 1;">
+                <h1 style="color: var(--primary); text-align: center; margin-bottom: 30px;">
+                    ДОБРО ПОЖАЛОВАТЬ В МИР КРАСОТЫ!
+                </h1>
+                
+                <div style="margin-bottom: 30px;">
+                    <img src="images/team.jpg" alt="Команда Лэтуаль" style="width: 300px; float: left; margin-right: 20px; border-radius: 10px; box-shadow: var(--shadow);">
+                    
+                    <h2 style="color: var(--secondary);"><a href="about.html" style="color: var(--secondary); text-decoration: none;">О нас</a></h2>
+                    <p style="margin-bottom: 15px;">
+                        <strong>Лэтуаль</strong> — это <em>крупнейшая сеть магазинов парфюмерии и косметики</em> в России. 
+                        Мы работаем с 1997 года и сегодня представляем более 1000 брендов со всего мира.
+                        <a href="about.html" style="color: var(--primary);">Подробнее →</a>
+                    </p>
+                    
+                    <h2 style="color: var(--secondary);"><a href="history.html" style="color: var(--secondary); text-decoration: none;">История фирмы</a></h2>
+                    <p style="margin-bottom: 15px;">
+                        Начав с одного магазина в Москве, сегодня мы имеем более <strong>700 точек продаж</strong> 
+                        по всей стране. В 2005 году мы запустили интернет-магазин.
+                        <a href="history.html" style="color: var(--primary);">Читать далее →</a>
+                    </p>
+                </div>
+                
+                <div style="clear: both;"></div>
+                
+                <h2 style="color: var(--secondary); margin: 30px 0 20px;"><a href="team.html" style="color: var(--secondary); text-decoration: none;">Наши сотрудники</a></h2>
+                <p style="margin-bottom: 20px;">
+                    В нашей компании работают <em>профессионалы высочайшего уровня</em>. 
+                    <a href="team.html" style="color: var(--primary);">Познакомиться →</a>
+                </p>
+                
+                <!-- ТАБЛИЦА -->
+                <h2 style="color: var(--secondary);">Преимущества работы с нами</h2>
+                <table class="modern-table">
+                    <tr>
+                        <td rowspan="3" style="background: linear-gradient(135deg, #ff1a6e, #6b46c1); color: white; font-weight: bold; font-size: 18px;">
+                            БОЛЕЕ 20 ЛЕТ<br>НА РЫНКЕ
+                        </td>
+                        <td colspan="2" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;">
+                            ГАРАНТИЯ КАЧЕСТВА
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Оригинальная продукция</strong><br><small>Только официальные поставки</small></td>
+                        <td><strong>Доставка по России</strong><br><small>Бесплатно от 3000₽</small></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Подарочная упаковка</strong><br><small>Любой товар бесплатно</small></td>
+                        <td><strong>Бонусная программа</strong><br><small>Кэшбэк до 10%</small></td>
+                    </tr>
+                </table>
+                
+                <!-- БЛОК С ТОВАРАМИ -->
+                <h2 style="color: var(--secondary); margin: 40px 0 20px;">Рекомендуемые товары</h2>
+                <div class="product-grid" style="grid-template-columns: repeat(3, 1fr);">
+                    <div class="product-card">
+                        <a href="product1.html">
+                            <img src="images/perfume1.jpg" alt="Chanel Chance">
+                        </a>
+                        <div class="product-info">
+                            <h3><a href="product1.html" style="color: var(--dark); text-decoration: none;">Chanel Chance</a></h3>
+                            <p class="price">8 990 ₽</p>
+                            <a href="product1.html" class="btn">Подробнее</a>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <a href="product2.html">
+                            <img src="images/perfume2.jpg" alt="Dior J'adore">
+                        </a>
+                        <div class="product-info">
+                            <h3><a href="product2.html" style="color: var(--dark); text-decoration: none;">Dior J'adore</a></h3>
+                            <p class="price">10 490 ₽</p>
+                            <a href="product2.html" class="btn">Подробнее</a>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <a href="product3.html">
+                            <img src="images/perfume3.jpg" alt="Gucci Bloom">
+                        </a>
+                        <div class="product-info">
+                            <h3><a href="product3.html" style="color: var(--dark); text-decoration: none;">Gucci Bloom</a></h3>
+                            <p class="price">7 990 ₽</p>
+                            <a href="product3.html" class="btn">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+        
+        <!-- ПОДВАЛ -->
+        <footer class="footer">
+            <hr>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>О компании</h4>
+                    <p><a href="about.html" style="color: white;">О нас</a></p>
+                    <p><a href="history.html" style="color: white;">История</a></p>
+                    <p><a href="team.html" style="color: white;">Сотрудники</a></p>
+                </div>
+                <div class="footer-section">
+                    <h4>Покупателям</h4>
+                    <p><a href="catalog.html" style="color: white;">Каталог</a></p>
+                    <p><a href="delivery.html" style="color: white;">Доставка</a></p>
+                    <p><a href="payment.html" style="color: white;">Оплата</a></p>
+                </div>
+                <div class="footer-section">
+                    <h4>Контакты</h4>
+                    <p><a href="tel:88001234567" style="color: white;">8-800-123-45-67</a></p>
+                    <p><a href="mailto:info@letoile.ru" style="color: white;">info@letoile.ru</a></p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 Лэтуаль. Все права защищены</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

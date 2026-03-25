@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лэтуаль | О нас</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container fade-in">
+        <!-- ШАПКА САЙТА -->
+        <header class="header">
+            <div class="logo">
+                <h1>ЛЭТУАЛЬ</h1>
+                <p>Beauty is your way</p>
+            </div>
+            
+            <div class="login-form">
+                <form action="login-process.html" method="get">
+                    <input type="text" name="username" placeholder="Логин" required>
+                    <input type="password" name="password" placeholder="Пароль" required>
+                    <div style="text-align: right; margin-top: 10px;">
+                        <input type="submit" value="Войти">
+                        <a href="register.html" style="color: white; margin-left: 10px;">Регистрация</a>
+                    </div>
+                </form>
+            </div>
+        </header>
+        
+        <!-- НАВИГАЦИЯ -->
+        <nav class="nav">
+            <div class="nav-links">
+                <a href="index.html">Главная</a>
+                <a href="catalog.html">Каталог</a>
+                <a href="contacts.html">Контакты</a>
+                <a href="brands.html">Бренды</a>
+                <a href="new.html">Новинки</a>
+            </div>
+            
+            <div class="search-box">
+                <form action="search_form.html" method="get">
+                    <input type="text" name="query" placeholder="Поиск...">
+                    <input type="submit" value="Найти">
+                </form>
+            </div>
+        </nav>
+        
+        <!-- ОСНОВНОЙ КОНТЕНТ -->
+        <div style="display: flex;">
+            <!-- ЛЕВЫЙ САЙДБАР (ПОЛНОЕ МЕНЮ) -->
+            <aside class="sidebar">
+                <h3>Меню</h3>
+                <a href="index.html">Главная</a>
+                <a href="about.html">О нас</a>
+                <a href="history.html">История фирмы</a>
+                <a href="team.html">Сотрудники</a>
+                <a href="new.html">Новинки</a>
+                <a href="bestsellers.html">Хиты продаж</a>
+                <a href="catalog.html">Каталог</a>
+                <a href="contacts.html">Контакты</a>
+                <a href="review.html">Отзывы</a>
+                
+                <h3 style="margin-top: 30px;">Категории</h3>
+                <a href="category-perfume.html">Парфюмерия</a>
+                <a href="category-makeup.html">Декоративная косметика</a>
+                <a href="category-skin.html">Уход за кожей</a>
+                <a href="category-hair.html">Уход за волосами</a>
+            </aside>
+            
+            <!-- ЦЕНТРАЛЬНАЯ ЧАСТЬ -->
+            <main class="main-content" style="flex: 1; padding: 40px;">
+                <h1 style="color: var(--primary); text-align: center;">О КОМПАНИИ ЛЭТУАЛЬ</h1>
+                <hr style="margin-bottom: 30px;">
+                
+                <img src="images/team.jpg" alt="О компании" style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 10px; margin-bottom: 30px;">
+                
+                <h2 style="color: var(--secondary);">Кто мы</h2>
+                <p><strong>Лэтуаль</strong> — это <em>крупнейшая сеть магазинов парфюмерии и косметики</em> в России. Мы работаем с 1997 года и сегодня представляем более 1000 брендов со всего мира.</p>
+                
+                <h2 style="color: var(--secondary); margin-top: 30px;">Наша миссия</h2>
+                <p>Мы помогаем женщинам и мужчинам быть красивыми и уверенными в себе. Мы предлагаем только качественную оригинальную продукцию по доступным ценам.</p>
+                
+                <h2 style="color: var(--secondary); margin-top: 30px;">Наши ценности</h2>
+                <ul class="modern-list">
+                    <li>Качество — мы продаем только оригинальную продукцию</li>
+                    <li>Доступность — у нас более 700 магазинов по всей России</li>
+                    <li>Сервис — наши консультанты всегда готовы помочь</li>
+                </ul>
+                
+                <a href="index.html" class="btn" style="margin-top: 30px;">← На главную</a>
+            </main>
+            
+            <!-- ПРАВЫЙ САЙДБАР -->
+            <aside class="right-sidebar">
+                <h3>Наши преимущества</h3>
+                <div class="banner">
+                    <p>✓ 20 лет на рынке</p>
+                </div>
+                <div class="banner">
+                    <p>✓ 700+ магазинов</p>
+                </div>
+                <div class="banner">
+                    <p>✓ 1000+ брендов</p>
+                </div>
+            </aside>
+        </div>
+        
+        <!-- ПОДВАЛ -->
+        <footer class="footer">
+            <hr>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>О компании</h4>
+                    <p><a href="about.html" style="color: white;">О нас</a></p>
+                    <p><a href="history.html" style="color: white;">История</a></p>
+                    <p><a href="team.html" style="color: white;">Сотрудники</a></p>
+                </div>
+                <div class="footer-section">
+                    <h4>Покупателям</h4>
+                    <p><a href="catalog.html" style="color: white;">Каталог</a></p>
+                    <p><a href="delivery.html" style="color: white;">Доставка</a></p>
+                    <p><a href="payment.html" style="color: white;">Оплата</a></p>
+                </div>
+                <div class="footer-section">
+                    <h4>Контакты</h4>
+                    <p><a href="tel:88001234567" style="color: white;">8-800-123-45-67</a></p>
+                    <p><a href="mailto:info@letoile.ru" style="color: white;">info@letoile.ru</a></p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 Лэтуаль. Все права защищены</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

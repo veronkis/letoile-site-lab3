@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лэтуаль | Доставка</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container fade-in">
+        <!-- ШАПКА САЙТА -->
+        <header class="header">
+            <div class="logo">
+                <h1>ЛЭТУАЛЬ</h1>
+                <p>Beauty is your way</p>
+            </div>
+            
+            <div class="login-form">
+                <form action="login-process.html" method="get">
+                    <input type="text" name="username" placeholder="Логин" required>
+                    <input type="password" name="password" placeholder="Пароль" required>
+                    <div style="text-align: right; margin-top: 10px;">
+                        <input type="submit" value="Войти">
+                        <a href="register.html" style="color: white; margin-left: 10px;">Регистрация</a>
+                    </div>
+                </form>
+            </div>
+        </header>
+        
+        <!-- НАВИГАЦИЯ -->
+        <nav class="nav">
+            <div class="nav-links">
+                <a href="index.html">Главная</a>
+                <a href="catalog.html">Каталог</a>
+                <a href="contacts.html">Контакты</a>
+                <a href="brands.html">Бренды</a>
+                <a href="new.html">Новинки</a>
+            </div>
+            
+            <div class="search-box">
+                <form action="search_form.html" method="get">
+                    <input type="text" name="query" placeholder="Поиск...">
+                    <input type="submit" value="Найти">
+                </form>
+            </div>
+        </nav>
+        
+        <!-- ОСНОВНОЙ КОНТЕНТ -->
+        <div style="display: flex;">
+            <!-- ЛЕВЫЙ САЙДБАР -->
+            <aside class="sidebar">
+                <h3>Меню</h3>
+                <a href="index.html">Главная</a>
+                <a href="about.html">О нас</a>
+                <a href="history.html">История фирмы</a>
+                <a href="team.html">Сотрудники</a>
+                <a href="new.html">Новинки</a>
+                <a href="bestsellers.html">Хиты продаж</a>
+                <a href="catalog.html">Каталог</a>
+                <a href="contacts.html">Контакты</a>
+                <a href="review.html">Отзывы</a>
+                
+                <h3 style="margin-top: 30px;">Категории</h3>
+                <a href="category-perfume.html">Парфюмерия</a>
+                <a href="category-makeup.html">Декоративная косметика</a>
+                <a href="category-skin.html">Уход за кожей</a>
+                <a href="category-hair.html">Уход за волосами</a>
+            </aside>
+            
+            <!-- ЦЕНТРАЛЬНАЯ ЧАСТЬ -->
+            <main class="main-content" style="flex: 1; padding: 40px;">
+                <h1 style="color: var(--primary); text-align: center;">ДОСТАВКА</h1>
+                <hr style="margin-bottom: 30px;">
+                
+                <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 30px; border-radius: 10px; text-align: center; margin-bottom: 40px;">
+                    <h2 style="color: white;">Бесплатная доставка от 3000₽</h2>
+                    <p>Доставляем по всей России</p>
+                </div>
+                
+                <h2 style="color: var(--secondary); margin-bottom: 20px;">Способы доставки</h2>
+                
+                <table style="width: 100%; border-collapse: collapse; margin-bottom: 40px;">
+                    <tr style="background: linear-gradient(135deg, #ff1a6e, #6b46c1); color: white;">
+                        <th style="padding: 15px; text-align: left;">Способ доставки</th>
+                        <th style="padding: 15px; text-align: left;">Сроки</th>
+                        <th style="padding: 15px; text-align: left;">Стоимость</th>
+                    </tr>
+                    <tr style="border-bottom: 1px solid #eee;">
+                        <td style="padding: 15px;"><strong>Курьером по Москве</strong></td>
+                        <td style="padding: 15px;">1-2 дня</td>
+                        <td style="padding: 15px;">300 ₽ (бесплатно от 3000₽)</td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid #eee;">
+                        <td style="padding: 15px;"><strong>Курьером по СПб</strong></td>
+                        <td style="padding: 15px;">2-3 дня</td>
+                        <td style="padding: 15px;">350 ₽ (бесплатно от 3000₽)</td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid #eee;">
+                        <td style="padding: 15px;"><strong>Почта России</strong></td>
+                        <td style="padding: 15px;">5-14 дней</td>
+                        <td style="padding: 15px;">от 350 ₽</td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid #eee;">
+                        <td style="padding: 15px;"><strong>СДЭК</strong></td>
+                        <td style="padding: 15px;">3-7 дней</td>
+                        <td style="padding: 15px;">от 400 ₽</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 15px;"><strong>Самовывоз из магазина</strong></td>
+                        <td style="padding: 15px;">1 день</td>
+                        <td style="padding: 15px;"><strong style="color: green;">Бесплатно</strong></td>
+                    </tr>
+                </table>
+                
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-bottom: 40px;">
+                    <div style="background: #f8f9fa; padding: 25px; border-radius: 10px;">
+                        <h3 style="color: var(--primary); margin-bottom: 15px;">🚚 Курьерская доставка</h3>
+                        <ul class="modern-list">
+                            <li>Доставка осуществляется ежедневно с 10:00 до 22:00</li>
+                            <li>Курьер предварительно свяжется с вами</li>
+                            <li>Возможна примерка товара</li>
+                            <li>Оплата наличными или картой курьеру</li>
+                        </ul>
+                    </div>
+                    
+                    <div style="background: #f8f9fa; padding: 25px; border-radius: 10px;">
+                        <h3 style="color: var(--primary); margin-bottom: 15px;">📦 Самовывоз</h3>
+                        <ul class="modern-list">
+                            <li>Более 700 пунктов выдачи по России</li>
+                            <li>Заказ хранится 7 дней</li>
+                            <li>При себе иметь паспорт</li>
+                            <li>Оплата при получении</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div style="background: #f8f9fa; padding: 25px; border-radius: 10px; margin-bottom: 30px;">
+                    <h3 style="color: var(--primary); margin-bottom: 15px;">📍 Пункты самовывоза в Москве</h3>
+                    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px;">
+                        <div>
+                            <p><strong>м. Тверская</strong></p>
+                            <p>ул. Тверская, д. 1</p>
+                            <p>Ежедневно 10:00-22:00</p>
+                        </div>
+                        <div>
+                            <p><strong>м. Арбатская</strong></p>
+                            <p>ул. Новый Арбат, д. 15</p>
+                            <p>Ежедневно 10:00-22:00</p>
+                        </div>
+                        <div>
+                            <p><strong>м. Павелецкая</strong></p>
+                            <p>ул. Зацепский Вал, д. 2</p>
+                            <p>Ежедневно 10:00-22:00</p>
+                        </div>
+                        <div>
+                            <p><strong>м. Кузнецкий мост</strong></p>
+                            <p>ул. Рождественка, д. 5</p>
+                            <p>Ежедневно 10:00-22:00</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style="background: linear-gradient(135deg, #ff1a6e, #6b46c1); color: white; padding: 20px; border-radius: 10px;">
+                    <h3 style="color: white; margin-bottom: 10px;">Важно!</h3>
+                    <p>✓ При получении заказа проверьте целостность упаковки</p>
+                    <p>✓ Возврат товара возможен в течение 14 дней</p>
+                    <p>✓ Бесплатная доставка действует при заказе от 3000₽</p>
+                </div>
+                
+                <a href="index.html" class="btn" style="margin-top: 30px;">← На главную</a>
+            </main>
+        </div>
+        
+        <!-- ПОДВАЛ -->
+        <footer class="footer">
+            <hr>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>О компании</h4>
+                    <p><a href="about.html" style="color: white;">О нас</a></p>
+                    <p><a href="history.html" style="color: white;">История</a></p>
+                    <p><a href="team.html" style="color: white;">Сотрудники</a></p>
+                </div>
+                <div class="footer-section">
+                    <h4>Покупателям</h4>
+                    <p><a href="catalog.html" style="color: white;">Каталог</a></p>
+                    <p><a href="delivery.html" style="color: white;">Доставка</a></p>
+                    <p><a href="payment.html" style="color: white;">Оплата</a></p>
+                </div>
+                <div class="footer-section">
+                    <h4>Контакты</h4>
+                    <p><a href="tel:88001234567" style="color: white;">8-800-123-45-67</a></p>
+                    <p><a href="mailto:info@letoile.ru" style="color: white;">info@letoile.ru</a></p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 Лэтуаль. Все права защищены</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
